@@ -1,9 +1,9 @@
 import { a as __toESM } from "./rolldown-runtime-D7D4PA-g.mjs";
 import { u as require_react } from "../_libs/@floating-ui/react-dom+[...].mjs";
 import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-collection+[...].mjs";
-import { r as cn } from "./button-1g9aKi-k.mjs";
+import { r as cn } from "./button-BHUavsfO.mjs";
 import { n as SwitchThumb, t as Switch$1 } from "../_libs/radix-ui__react-switch.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/scans-PfYMEl4V.js
+//#region node_modules/.nitro/vite/services/ssr/assets/scans-qVrcRdfM.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var Switch = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Switch$1, {
@@ -53,120 +53,6 @@ var CROPS = [
 	"Sugarcane",
 	"Maize"
 ];
-var DISEASE_BOOK = {
-	Rice: [
-		{
-			name: "Rice Blast",
-			explain: "Diamond-shaped grey lesions on the leaf. It spreads fast in humid weather and can empty the grain heads.",
-			organic: "Spray neem oil 3% + Pseudomonas fluorescens (5g/litre), twice a week apart.",
-			chemical: "Tricyclazole 75% WP @ 0.6g/litre, one spray now, repeat after 12 days.",
-			cost: 850,
-			lossPerAcre: 18e3
-		},
-		{
-			name: "Bacterial Leaf Blight",
-			explain: "Yellow wavy streaks from the leaf tip drying downward. Spreads with irrigation water.",
-			organic: "Cow-dung slurry filtrate spray + stop flood irrigation for 4 days.",
-			chemical: "Copper oxychloride 0.25% + Streptocycline 100ppm spray.",
-			cost: 700,
-			lossPerAcre: 15e3
-		},
-		{
-			name: "Brown Spot",
-			explain: "Small brown oval spots, usually a sign of potash-hungry soil plus fungal attack.",
-			organic: "Potash-rich wood ash + neem cake soil dressing.",
-			chemical: "Mancozeb 75% WP @ 2g/litre.",
-			cost: 520,
-			lossPerAcre: 9e3
-		}
-	],
-	Sugarcane: [{
-		name: "Red Rot",
-		explain: "Inner cane turns red with white patches and smells of alcohol. Highly infectious in a field.",
-		organic: "Uproot and burn affected clumps, drench with Trichoderma viride.",
-		chemical: "Carbendazim 50% WP @ 2g/litre as sett dip and soil drench.",
-		cost: 1400,
-		lossPerAcre: 42e3
-	}, {
-		name: "Sugarcane Smut",
-		explain: "A long black whip emerges from the cane top. Cuts sugar recovery sharply.",
-		organic: "Rogue out whips into a sealed bag; use disease-free setts next season.",
-		chemical: "Propiconazole 25% EC @ 1ml/litre sett treatment.",
-		cost: 1100,
-		lossPerAcre: 3e4
-	}],
-	Tomato: [
-		{
-			name: "Late Blight",
-			explain: "Water-soaked dark patches on leaves with white mould underneath. Can wipe a plot in 4 days.",
-			organic: "Bordeaux mixture 1% + remove lower infected leaves.",
-			chemical: "Metalaxyl + Mancozeb @ 2g/litre, repeat after 8 days.",
-			cost: 950,
-			lossPerAcre: 26e3
-		},
-		{
-			name: "Early Blight",
-			explain: "Brown spots with concentric rings on older leaves, moving upward.",
-			organic: "Neem oil 3% + Trichoderma soil application.",
-			chemical: "Chlorothalonil 75% WP @ 2g/litre.",
-			cost: 640,
-			lossPerAcre: 14e3
-		},
-		{
-			name: "Leaf Curl Virus",
-			explain: "Curled, thickened, cup-shaped leaves. Carried by whitefly, not curable — control the vector.",
-			organic: "Yellow sticky traps + neem soap spray for whitefly.",
-			chemical: "Imidacloprid 17.8% SL @ 0.3ml/litre for whitefly control.",
-			cost: 780,
-			lossPerAcre: 22e3
-		}
-	],
-	Cotton: [{
-		name: "Bacterial Blight",
-		explain: "Angular water-soaked spots on leaves and black arm on stems.",
-		organic: "Pseudomonas fluorescens spray + balanced potash.",
-		chemical: "Copper oxychloride 3g/litre + Streptocycline.",
-		cost: 900,
-		lossPerAcre: 2e4
-	}, {
-		name: "Cotton Leaf Curl",
-		explain: "Upward curling with thick veins, stunted bolls. Whitefly borne.",
-		organic: "Sticky traps + neem-based spray every 7 days.",
-		chemical: "Diafenthiuron 50% WP @ 1g/litre.",
-		cost: 1050,
-		lossPerAcre: 24e3
-	}],
-	Wheat: [{
-		name: "Yellow Rust",
-		explain: "Yellow powdery stripes along the leaf veins. Cool, moist weather accelerates it.",
-		organic: "Remove volunteer plants, spray cow-urine extract 10%.",
-		chemical: "Propiconazole 25% EC @ 1ml/litre.",
-		cost: 720,
-		lossPerAcre: 16e3
-	}, {
-		name: "Powdery Mildew",
-		explain: "White floury growth on the leaf surface reducing grain filling.",
-		organic: "Wettable sulphur 0.2% spray.",
-		chemical: "Hexaconazole 5% EC @ 2ml/litre.",
-		cost: 600,
-		lossPerAcre: 11e3
-	}],
-	Maize: [{
-		name: "Fall Armyworm Damage",
-		explain: "Ragged holes and moist sawdust-like frass in the whorl. Larvae feed at night.",
-		organic: "Sand + lime in the whorl, release Trichogramma cards.",
-		chemical: "Emamectin benzoate 5% SG @ 0.4g/litre into the whorl.",
-		cost: 880,
-		lossPerAcre: 19e3
-	}, {
-		name: "Turcicum Leaf Blight",
-		explain: "Long cigar-shaped grey-green lesions on leaves.",
-		organic: "Crop rotation + Trichoderma seed treatment.",
-		chemical: "Mancozeb 75% WP @ 2.5g/litre.",
-		cost: 640,
-		lossPerAcre: 13e3
-	}]
-};
 var DEALERS = [
 	{
 		name: "Sri Chamundeshwari Agro Centre",
@@ -187,10 +73,6 @@ var DEALERS = [
 		km: 7.1
 	}
 ];
-function pickDisease(crop) {
-	const list = DISEASE_BOOK[crop] ?? DISEASE_BOOK["Rice"];
-	return list[Math.floor(Math.random() * list.length)];
-}
 function severityFromConfidence(confidence) {
 	if (confidence > 95) return "Critical";
 	if (confidence > 90) return "High";
@@ -317,4 +199,4 @@ var scansQuery = {
 	refetchInterval: 15e3
 };
 //#endregion
-export { VILLAGES as a, pickDisease as c, timeAgo as d, Switch as i, scansQuery as l, DEALERS as n, inr as o, SEVERITY_HEX as r, insertScan as s, CROPS as t, severityFromConfidence as u };
+export { VILLAGES as a, scansQuery as c, Switch as i, severityFromConfidence as l, DEALERS as n, inr as o, SEVERITY_HEX as r, insertScan as s, CROPS as t, timeAgo as u };

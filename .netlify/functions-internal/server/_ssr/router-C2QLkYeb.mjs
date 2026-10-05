@@ -5,10 +5,10 @@ import { o as require_jsx_runtime } from "../_libs/@radix-ui/react-collection+[.
 import { n as QueryClientProvider } from "../_libs/tanstack__react-query.mjs";
 import { t as QueryClient } from "../_libs/tanstack__query-core.mjs";
 import { t as Toaster } from "../_libs/sonner.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-DFn_qV7t.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-C2QLkYeb.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
-var styles_default = "/assets/styles-BCpF8QYG.css";
+var styles_default = "/assets/styles-C8vXVhvR.css";
 function reportLovableError(error, context = {}) {
 	if (typeof window === "undefined") return;
 	window.__lovableEvents?.captureException?.(error, {
@@ -319,7 +319,7 @@ function RootComponent() {
 		})] })
 	});
 }
-var $$splitComponentImporter$2 = () => import("./routes-CYw_IGtM.mjs");
+var $$splitComponentImporter$2 = () => import("./routes-BT6z0jEg.mjs");
 var Route$2 = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "KrishiRakshak — Village-Level Crop Disease Outbreak Radar" },
@@ -338,7 +338,7 @@ var Route$2 = createFileRoute("/")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-var $$splitComponentImporter$1 = () => import("./command-l0PPKDme.mjs");
+var $$splitComponentImporter$1 = () => import("./command-BlZNEeAf.mjs");
 var Route$1 = createFileRoute("/command")({
 	head: () => ({ meta: [
 		{ title: "District Command Center — KrishiRakshak" },
@@ -357,7 +357,7 @@ var Route$1 = createFileRoute("/command")({
 	] }),
 	component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-var $$splitComponentImporter = () => import("./scan-CRSpjRR-.mjs");
+var $$splitComponentImporter = () => import("./scan-BkJA1ZYT.mjs");
 var Route = createFileRoute("/scan")({
 	head: () => ({ meta: [
 		{ title: "Scan My Crop — KrishiRakshak" },

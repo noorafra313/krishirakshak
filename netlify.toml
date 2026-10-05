@@ -1,0 +1,11 @@
+# Netlify reads this file automatically — dashboard Build settings can stay default.
+# The app is TanStack Start (SSR via Nitro). The Netlify preset emits static
+# assets to `dist/` and the SSR handler to `.netlify/functions-internal/server`,
+# which serves all routes (`/*`) with static files taking precedence.
+[build]
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NITRO_PRESET = "netlify"
+  NODE_VERSION = "20"
